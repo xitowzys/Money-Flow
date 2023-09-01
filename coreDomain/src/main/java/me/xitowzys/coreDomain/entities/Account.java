@@ -1,6 +1,7 @@
 package me.xitowzys.coreDomain.entities;
 
 import lombok.Data;
+import me.xitowzys.coreDomain.interfaces.Entity;
 
 /**
  * Represents an account.
@@ -14,7 +15,7 @@ import lombok.Data;
  * @since 0.0.1-SNAPSHOT
  */
 @Data
-public class Account {
+public class Account implements Entity {
     /**
      * The unique identifier of the account.
      */

@@ -1,6 +1,7 @@
 package me.xitowzys.coreDomain.entities;
 
 import lombok.Data;
+import me.xitowzys.coreDomain.interfaces.Entity;
 
 /**
  * Represents a user.
@@ -14,7 +15,7 @@ import lombok.Data;
  * @since 0.0.1-SNAPSHOT
  */
 @Data
-public class User {
+public class User implements Entity {
     /**
      * The unique identifier of the user.
      */

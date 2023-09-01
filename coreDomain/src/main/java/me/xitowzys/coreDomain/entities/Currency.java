@@ -3,6 +3,7 @@ package me.xitowzys.coreDomain.entities;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import me.xitowzys.coreDomain.interfaces.Entity;
 
 /**
  * Represents a currency.
@@ -16,7 +17,7 @@ import lombok.Setter;
  * @since 0.0.1-SNAPSHOT
  */
 @Data
-public class Currency {
+public class Currency implements Entity {
     /**
      * The unique identifier of the currency.
      */
